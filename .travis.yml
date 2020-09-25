@@ -4,6 +4,11 @@ python:
   - 3.4
   - 3.5
   - 3.6
+
+arch:
+  - amd64
+  - ppc64le
+
 env:
   - DJANGO=django==1.8.18 DRF=3.3.1 DATABASE_URL=mysql://root@localhost/test
   - DJANGO=django==1.8.18 DRF=3.3.1 DATABASE_URL=postgres://postgres@localhost/test
